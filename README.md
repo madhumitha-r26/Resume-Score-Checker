@@ -1,0 +1,1 @@
+Resume Score Checker Application that displays the ATS score of the resume applied to the corresponding JD, gives suggestions for improvement and tells whether the resume need to be applied to the job or not.
