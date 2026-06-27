@@ -6,7 +6,7 @@ An intelligent **ATS (Applicant Tracking System) Resume Analyzer** that compares
 
 * 📄 **PDF Resume Parsing**
 
-  * Extracts text directly from PDF resumes using `PyPDF2`.
+  * Extracts text directly from PDF resumes using `pypdf`.
 
 * 🎯 **ATS Resume Scoring**
 
@@ -56,7 +56,7 @@ An intelligent **ATS (Applicant Tracking System) Resume Analyzer** that compares
 * **Python**
 * **Streamlit**
 * **spaCy**
-* **PyPDF2**
+* **pypdf**
 * **Regular Expressions (re)**
 
 ---
