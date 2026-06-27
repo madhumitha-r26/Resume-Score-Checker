@@ -18,7 +18,7 @@ if 'nlp_model' not in st.session_state:
         except:
             st.session_state.nlp_model = spacy.blank("en")
 
-st.set_page_config(page_title="Resume Score Checker", page_icon="logo.png", layout=None, initial_sidebar_state=None, menu_items=None)
+st.set_page_config(page_title="Tech Resume Score Checker", page_icon="logo.png", layout=None, initial_sidebar_state=None, menu_items=None)
 
 with st.container(horizontal=True):
     st.space("stretch")

@@ -61,20 +61,6 @@ An intelligent **ATS (Applicant Tracking System) Resume Analyzer** that compares
 
 ---
 
-## 📊 Scoring Methodology
-
-The ATS score is calculated using multiple weighted metrics:
-
-| Metric                  | Weight |
-| ----------------------- | ------ |
-| Technical Skills Match  | 40%    |
-| Semantic Similarity     | 25%    |
-| Contextual Phrase Match | 20%    |
-| Keyword/Lemma Match     | 15%    |
-
-The final score is normalized to a maximum of **100%**.
-
----
 
 ## 📂 Supported Skills Categories
 
