@@ -153,7 +153,7 @@ Resume-Score-Checker/
 * Resume section detection (Education, Projects, Experience, Skills).
 * Experience-level matching.
 * Industry-specific resume scoring.
-* AI-generated resume rewriting suggestions.
+* Report Generation
 * Integration with Large Language Models for deeper resume analysis.
 
 ---

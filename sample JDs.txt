@@ -1,0 +1,65 @@
+Job Summary - 1
+
+Key Responsibilities:
+
+* Design, develop, and maintain scalable backend applications using Python.
+* Build and integrate RESTful APIs and microservices.
+* Develop reusable, secure, and efficient code following best practices.
+* Collaborate with frontend developers, QA engineers, and product teams.
+* Optimize application performance, scalability, and reliability.
+* Design and manage database schemas and queries.
+* Troubleshoot, debug, and resolve production issues.
+* Write unit and integration tests to ensure application quality.
+* Participate in Agile development processes and code reviews.
+
+Required Skills:
+
+* Python
+* Django or FastAPI or Flask
+* REST API Development
+* SQL (PostgreSQL, MySQL)
+* ORM (Django ORM or SQLAlchemy)
+* Git
+* HTML, CSS, JavaScript (basic understanding)
+* Unit Testing (PyTest, Unittest)
+* Object-Oriented Programming (OOP)
+* Data Structures & Algorithms
+
+Preferred Skills:
+
+* Microservices Architecture
+* Docker
+* Kubernetes
+* AWS, Azure, or Google Cloud Platform
+* Redis
+* Celery
+* RabbitMQ or Kafka
+* CI/CD Pipelines
+* Linux
+* NoSQL Databases (MongoDB)
+
+Qualifications:
+
+* Bachelor's degree in Computer Science, Information Technology, or a related field.
+* 2–6 years of professional experience in Python development.
+* Strong analytical, debugging, and problem-solving skills.
+* Excellent communication and teamwork abilities.
+
+---
+
+Job Summary - 2
+
+Responsibilities:
+
+* Design and implement backend infrastructure and APIs.
+* Write high-quality, robust, readable, and scalable code.
+* Build responsive, robust, and optimized applications.
+
+Requirements And Qualifications:
+
+* Proficiency in Python, with a solid understanding of Django, Celery, and Redis.
+* Bachelor’s degree in computer science, engineering, or a related field.
+
+Skills:
+
+* Django, FastAPI, PostgreSQL, RESTful APIs, Data Structures and Algorithms

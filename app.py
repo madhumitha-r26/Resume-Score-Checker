@@ -33,7 +33,7 @@ job_description = st.text_area("Paste the Job Description:", height=300)
 
 with st.container(horizontal=True):
     st.space("stretch")
-    analyze_resume = st.button("Calculate Resume Score")
+    analyze_resume = st.button("Calculate Resume Score",type="primary")
     st.space("stretch")
 
 # ==================== ADVANCED NLP FUNCTIONS ====================
@@ -268,8 +268,10 @@ def generate_resume_suggestions(scores, all_resume_tech, all_job_tech, pdf_text)
             "🎉 Your resume already aligns very well with this job description."
         )
     else:
-        for suggestion in suggestions:
-            st.text(f"✨ {suggestion}")
+        with st.container(border=True):
+            for suggestion in suggestions:
+                st.text(f"✨ {suggestion}")
+            
 
 def application_recommendation(final_score, all_resume_tech, all_job_tech):
     st.markdown("### 🎯 Application Recommendation")
@@ -283,7 +285,7 @@ def application_recommendation(final_score, all_resume_tech, all_job_tech):
     )
 
     if final_score >= 80 and skill_coverage >= 60:
-        st.success(
+        st.info(
             "🚀 Strongly Recommended to Apply\n\n"
             "Your resume aligns very well with this job description."
         )
@@ -295,7 +297,7 @@ def application_recommendation(final_score, all_resume_tech, all_job_tech):
         )
 
     elif final_score >= 50:
-        st.warning(
+        st.info(
             "⚠️ Apply if You Can Demonstrate Missing Skills\n\n"
             "You match some requirements, but your application would be stronger "
             "with additional experience or projects related to the missing skills."
@@ -307,10 +309,6 @@ def application_recommendation(final_score, all_resume_tech, all_job_tech):
             "Your profile currently does not align closely with this role."
         )
 
-    st.write(
-        f"**Skill Coverage:** {matched_skills}/{total_jd_skills} "
-        f"required technical skills matched."
-    )
 
 
 # ==================== MAIN EXECUTION ====================
